@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saasflix|Home-page</title>
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- boostraps start -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- aos css -->
+    <link rel="stylesheet" href="./css/aos.css">
+    <!-- owl.theme.default.min.css -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+              
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo-white.png" alt="logo" width="130"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon nav-icon-show"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./img/logo-dark.png" alt="logo" width="100"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Home </a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a <a class="dropdown-item" href="./index.html">Digital Agency</a></li>
+                                <li><a <a class="dropdown-item" href="">Creative Agency</a></li>
+                                <li><a <a class="dropdown-item" href="">Personal Portfolio</a></li>
+                                <li><a <a class="dropdown-item" href="">Home Startup</a></li>
+                                <li><a <a class="dropdown-item" href="">Corporate Agency</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Feature</a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Service</a></li>
+                                <li><a class="dropdown-item" href="">Service Tow</a></li>
+                                <li><a class="dropdown-item" href="">Service Details</a></li>
+                            </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Plan</a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Two Column</a></li>
+                                <li><a class="dropdown-item" href="">Three Column</a></li>
+                                <li><a class="dropdown-item" href="">Four Column</a></li>
+                                <li><a class="dropdown-item" href="">Three Column Width</a></li>
+                                <li><a class="dropdown-item" href="">Four Column Width</a></li>
+                                <li><a class="dropdown-item" href="">Portfolio Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">FAQ</a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./about.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="">Our Office</a></li>
+                                <li><a class="dropdown-item" href="">Case Study</a></li>
+                                <li><a class="dropdown-item" href="">Case Study Details</a></li>
+                                <li><a class="dropdown-item" href="">Team</a></li>
+                                <li><a class="dropdown-item" href="">Team Details</a></li>
+                                <li><a class="dropdown-item" href="">Our Clients</a></li>
+                                <li><a class="dropdown-item" href="">Testimonials</a></li>
+                                <li><a class="dropdown-item" href="">Pricing Table</a></li>
+                                <li><a class="dropdown-item" href="">Typography</a></li>
+                                <li><a class="dropdown-item" href="">404 Page</a></li>
+                                <li><a class="dropdown-item" href="">Coming Soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Blog </a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Blog</a></li>
+                                <li><a class="dropdown-item" href="">Standard Post</a></li>
+                                <li><a class="dropdown-item" href="">Gallery Post</a></li>
+                                <li><a class="dropdown-item" href="">Video Post</a></li>
+                                <li><a class="dropdown-item" href="">Audio Post</a></li>
+                                <li><a class="dropdown-item" href="">Quote Post</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex " role="search">
+                        <input class="form-control me-2 search-customaizion" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success search-customaizion" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero area start -->
+    <section class="hero-area">
+        <div class="bubble-5">
+            <img src="./img/buble-5.png" alt="">
+        </div>
+        <div class="saasflix_hero_area">
+            <div class="container">
+                <div class="row g-4 pt-5">
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="saasflix_hero_left"   data-aos="zoom-in">
+                            <h1>A premium web app design for your website</h1>
+                            <p>There are many variations of passages of lorem ipsum available but the majority have
+                                suffered alteration in some form.</p>
+                            <p class="pt-2">Sed quia non numquam eius modi tempora.</p>
+                            <button type="button" class="btn hero_btn"><a href="#">Get Started</a></button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="saasflix_hero_right" data-aos="zoom-in">
+                            <img src="./img/hero-img-mac.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container mt-2">
+            <div class="owl-carousel join-brand owl-theme brand">
+                <div class="item"> <img src="./img/client-1.png" alt=""></div>
+                <div class="item"> <img src="./img/client-2.png" alt=""></div>
+                <div class="item"> <img src="./img/client-3.png" alt=""></div>
+                <div class="item"><img src="./img/client-4.png" alt=""></div>
+                <div class="item"><img src="./img/client-5.png" alt=""></div>
+                <div class="item"><img src="./img/client-6.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- saasflix web app features page 1 start -->
+    <section id="features">
+        <div class="bubble-4">
+            <img src="./img/bubble-4.png" alt="">
+        </div>
+        <div class="container">
+            <div class="saasflix_we_app">
+                <div class="row g-4">
+                    <div class="col-xl-6  col-md-6">
+                        <div class="saasflix_web_left " data-aos="zoom-in">
+                            <h2>Your saas web app with just a few clicks</h2>
+                            <p class="pt-2">There are many variations of passages of lor ipsum available but the
+                                majority have suffered alteration in some form by injected humour.</p>
+                            <p class="pt-2">All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                                chunks as necessary.</p>
+                            <button type="button" class="btn saas_web_btn">Discover</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6  col-md-6">
+                        <div class="saasflix_web_right" data-aos="zoom-in">
+                            <img src="./img/saasapp.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- saasflix web app features page 2 start -->
+
+    <section class="features">
+        <div class="container ">
+            <div class="saasflix_we_app">
+                <div class="row g-4">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="saasflix_web_right" data-aos="zoom-in">
+                            <img src="./img/saasapp2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="saasflix_web_left " data-aos="zoom-in">
+                            <h2>Your saas web app with just a few clicks</h2>
+                            <p class="pt-2">There are many variations of passages of lor ipsum available but the
+                                majority have suffered alteration in some form by injected humour.</p>
+                            <p class="pt-2">All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                                chunks as necessary.</p>
+                            <button type="button" class="btn saas_web_btn">Discover</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- saasflix web app features page 3 start -->
+
+    <section class="features">
+        <div class="container ">
+            <div class="saasflix_we_app">
+                <div class="row g-4">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="saasflix_web_left" data-aos="zoom-in">
+                            <h2>Your saas web app with just a few clicks</h2>
+                            <p class="pt-2">There are many variations of passages of lor ipsum available but the
+                                majority have suffered alteration in some form by injected humour.</p>
+                            <p class="pt-2">All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                                chunks as necessary.</p>
+                            <button type="button" class="btn saas_web_btn">Discover</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 ">
+                        <div class="saasflix_web_right" data-aos="zoom-in">
+                            <img src="./img/saasapp3.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sassflix card page start -->
+    <section class="sassflix-cardbody">
+        <div class="bubble-2">
+            <img src="./img/bubble-2.png" alt="">
+        </div>
+            <div class="container ">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6 col-lg-4 ">
+                        <div class="saasflix_card_num" data-aos="zoom-in">
+                            <div class="saasflix_card_icon pt-4">
+                                <img src="./img/saasflixcard1.png" alt="" width="100px">
+                            </div>
+                            <h2 class="pt-4">Saasflix</h2>
+                            <h3 class="pt-2">Implement</h3>
+                            <p>There are many variations of passages of lorem ipsum dolor amet available.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4  col-md-6">
+                        <div class="saasflix_card_num" data-aos="zoom-in">
+                            <div class="saasflix_card_icon pt-4">
+                                <img src="./img/saasflixcard2.png" alt="" width="100px">
+                            </div>
+                            <h2 class="pt-4">Saasflix</h2>
+                            <h3 class="pt-2">secure</h3>
+                            <p>There are many variations of passages of lorem ipsum dolor amet available.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4  col-md-6">
+                        <div class="saasflix_card_num" data-aos="zoom-in">
+                            <div class="saasflix_card_icon pt-4">
+                                <img src="./img/saasflixcard3.png" alt="" width="100px">
+                            </div>
+                            <h2 class="pt-4">Saasflix</h2>
+                            <h3 class="pt-2">Automate</h3>
+                            <p>There are many variations of passages of lorem ipsum dolor amet available.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+    </section>
+    <!-- Why is Saasflix different -->
+    <section class="why-saasflix">
+        <div class="container ">
+            <div class="why_saasflix">
+                <h1>Why is Saasflix different?</h1>
+            </div>
+            <div class="row pt-5 g-4">
+                <div class="col-xl-6 col-lg-6 col-md-12 ">
+                    <div class="why_saasflix_left" data-aos="zoom-in">
+                        <div class="why_block">
+                            <div class="why_child">
+                                <i class="fa-solid fa-user-pen"></i>
+                            </div>
+                            <div class="why-content">
+                                <h3>Developer-first coding</h3>
+                                <p>There are many variations of passages of lorem available.</p>
+                            </div>
+                        </div>
+                        <div class="why_block pt-3">
+                            <div class="why_child">
+                                <i class="fa-solid fa-envelopes-bulk"></i>
+                            </div>
+                            <div class="why-content">
+                                <h3>Leading incremental database</h3>
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                            </div>
+                        </div>
+                        <div class="why_block pt-3">
+                            <div class="why_child">
+                                <i class="fa-solid fa-truck-fast"></i>
+                            </div>
+                            <div class="why-content">
+                                <h3>Automated work flow</h3>
+                                <p>Similique sunt in culpa qui officia deserunt mollitia animi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 pt-4"> <button onclick="openFullscreen();">Open Video in Fullscreen
+                        Mode</button>
+
+                    <a controls id="myvideo" href="https://www.youtube.com/watch?v=bSZT_VV_HUo">
+
+                        <img src="./img/video-bg.jpg" alt="image" class="img-fluid">
+                    </a>
+                    <!-- <a href="https://www.youtube.com/watch?v=bSZT_VV_HUo"> </a> -->
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- plan 7 pricing page start -->
+
+    <section class="pricing-section ">
+        <div class="line-3">
+            <img src="./img/line-3.png" alt="">
+        </div>
+        <div class="bubble-8">
+            <img src="./img/bubble-8.png" alt="">
+        </div>
+        <div class="container-fluid  ">
+            <div class="pricing-title">
+                <h5>Pricing Plan</h5>
+                <h1>Find the Right Plan.</h1>
+                <p>Flexible pricing options for freelancers
+                    and design teams.</p>
+                <div class="pricing-btn pt-3">
+                    <button type="button" class="btn pricing-btn1">Billed yearly</button>
+                    <button type="button" class="btn pricing-btn2">Billed monthly</button>
+                </div>
+            </div>
+            <div class="row mt-5 pt-5 g-4">
+                <div class="col-xl-4">
+                    <div class="pricing-box" data-aos="zoom-in">
+                        <div class="pricing-body">
+                            <div class="pricing-text">
+                                <h2>Professional</h2>
+                                <p>A beautiful, simple website</p>
+                            </div>
+                            <div class="pricing-price">
+                                <h3>$119.99<span>/yearly</span></h3>
+                            </div>
+                            <div class="pricing-box-btn">
+                                <button type="button" class="btn proffessional-btn">Get Started Today</button>
+                            </div>
+                            <div class="pricing-text-box">
+                                <p><i class="fa-regular fa-circle-check"></i> 10 Pages Responsive Website</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 5 PPC Campaigns</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 10 SEO Keywords</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 5 Facebook Camplaigns</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 2 Video Camplaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="pricing-box" data-aos="zoom-in">
+                        <div class="pricing-body">
+                            <div class="pricing-text">
+                                <h2>Standard</h2>
+                                <p>Small Team</p>
+                            </div>
+                            <div class="pricing-price">
+                                <h3>$219.99<span>/yearly</span></h3>
+                            </div>
+                            <div class="pricing-box-btn">
+                                <button type="button" class="btn proffessional-btn">Get Started Today</button>
+                            </div>
+                            <div class="pricing-text-box">
+                                <p><i class="fa-regular fa-circle-check"></i> 10 Pages Responsive Website</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 5 PPC Campaigns</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 10 SEO Keywords</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 5 Facebook Camplaigns</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 2 Video Camplaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="pricing-box" data-aos="zoom-in">
+                        <div class="pricing-body">
+                            <div class="pricing-text">
+                                <h2>Ultimate</h2>
+                                <p>Large Team</p>
+                            </div>
+                            <div class="pricing-price">
+                                <h3>$559.99<span>/yearly</span></h3>
+                            </div>
+                            <div class="pricing-box-btn">
+                                <button type="button" class="btn proffessional-btn">Get Started Today</button>
+                            </div>
+                            <div class="pricing-text-box">
+                                <p><i class="fa-regular fa-circle-check"></i> 10 Pages Responsive Website</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 5 PPC Campaigns</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 10 SEO Keywords</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 5 Facebook Camplaigns</p>
+                                <p><i class="fa-regular fa-circle-check"></i> 2 Video Camplaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently asked questions -->
+
+    <section id="faq">
+        <div class="circle-2">
+            <img src="./img/circle-2.png" alt="">
+        </div>
+        <div class="container">
+            <h2 class="frequent_heading">Frequently asked questions</h2>
+
+            <button class="accordion">Can I integrate my enterprise software with Saasflix?</button>
+            <div class="panel">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+            </div>
+
+            <button class="accordion">If I invite my suppliers or customers to Saasflix, do I have to pay for their
+                accounts?</button>
+            <div class="panel">
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </p>
+            </div>
+
+            <button class="accordion">What perks do I get for prepaying my subscription?</button>
+            <div class="panel">
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+                    placeat facere possimus.</p>
+            </div>
+            <button class="accordion">Can I install Saasflix on my own hardware?</button>
+            <div class="panel">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+            </div>
+            <button class="accordion">How can I obtain a copy of my data?</button>
+            <div class="panel">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+            </div>
+            <button class="accordion">How safe is my data?</button>
+            <div class="panel">
+                <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                    pain, but because occasionally circumstances occur in which toil and pain can procure him some great
+                    pleasure.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Get started page start -->
+
+    <section class="get-ready-section">
+        <div class="bubble-3">
+            <img src="./img/bubble-3.png" alt="">
+        </div>
+        <div class="container">
+            <div class="get_ready_bg ">
+                <div class="row g-4">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="get_ready_img" data-aos="zoom-in">
+                            <img src="./img/get.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="get_ready_right" data-aos="zoom-in">
+                            <h1>Get started with Saasflix</h1>
+                            <p>Access our guide and discover everything your
+                                company needs to become compliant.</p>
+                            <button class="btn get_ready_btn">Book a demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our team page start -->
+
+    <section class="our-team-section">
+            <div class="container">
+                <div class="our_team_heading">
+                    <h1>Our Team</h1>
+                </div>
+                <div class="row pt-5 g-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card" data-aos="zoom-in">
+                            <img src="./img/member-1.jpg" alt="John" style="width:100%">
+                            <h1 class="pt-3">David Cottrell</h1>
+                            <p class="title">Project Lead</p>
+                            <p>SaaS Applications</p>
+                            <div style="margin: 24px 0;">
+                                <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card" data-aos="zoom-in">
+                            <img src="./img/member-2.jpg" alt="John" style="width:100%">
+                            <h1 class="pt-3">Anton McKay</h1>
+                            <p class="title">Web Developer</p>
+                            <p>Saasflix Web Pro Apps</p>
+                            <div style="margin: 24px 0;">
+                                <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card" data-aos="zoom-in">
+                            <img src="./img/member-3.jpg" alt="John" style="width:100%">
+                            <h1 class="pt-3">Danny Stanton</h1>
+                            <p class="title">Design Lead</p>
+                            <p>Adobe Suite Expert</p>
+                            <div style="margin: 24px 0;">
+                                <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-4"></div>
+            <div class="shape-5"></div>
+            <div class="shape-6"></div>
+    </section>
+    <!-- How it works page start -->
+
+    <section class="how-work">
+        <div class="container ">
+            <div class="how_work_heading">
+                <h1>How it works?</h1>
+                <p>Just 3 simple steps to start using Saasflix.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-xl-6 col-md-6">
+                    <div class="how_work_change_img">
+                        <img id="changeIag" src="./img/1how.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="how_work_right">
+
+                        <div class="create_task" onclick="changeImg_1()">
+                            <h3>Create your tasks</h3>
+                            <p>There are many variations of passages of lorem ipsum dolor amet available.</p>
+                        </div>
+
+
+                        <div class="build_flow" onclick="changeImg_2()">
+                            <h3>Build your flow</h3>
+                            <p>There are many variations of passages of lorem ipsum dolor amet available.</p>
+                        </div>
+
+
+                        <div class="aquire_new" onclick="changeImg_3()">
+                            <h3>Aquire new users</h3>
+                            <p>There are many variations of passages of lorem ipsum dolor amet available.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </section>
+
+    <!-- Trusted by over 10,000 companies page start -->
+
+    <section class="testimonial company_bg">
+        <div class="container">
+            <h2>Trusted by over 10,000 companies</h2>
+            <div class="owl-carousel testimonial-slider owl-theme">
+                <!-- card 1 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user1.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“Saasflix app platform is incredibly
+                            simple to use.”</h1>
+                        <p class="title">Christian Brown</p>
+                        <p>Entrepreneur, LA</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user2.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“Giving a five star review was
+                            the easiest thing I've done in a while.”</h1>
+                        <p class="title">Mike Anderson</p>
+                        <p>Project Admin, NY</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user1.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“I am using Saasflix app for more than 25 years.”</h1>
+                        <p class="title">Steven Gray</p>
+                        <p>Web Developer, Ohio</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user2.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“Giving a five star review was
+                            the easiest thing I've done in a while.”</h1>
+                        <p class="title">Mike Anderson</p>
+                        <p>Project Admin, NY</p>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user1.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“Saasflix app platform is incredibly
+                            simple to use.”</h1>
+                        <p class="title">Christian Brown</p>
+                        <p>Entrepreneur, LA</p>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user2.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“Giving a five star review was
+                            the easiest thing I've done in a while.”</h1>
+                        <p class="title">Mike Anderson</p>
+                        <p>Project Admin, NY</p>
+                    </div>
+                </div>
+                <!-- card 7 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user1.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“Saasflix app platform is incredibly
+                            simple to use.”</h1>
+                        <p class="title">Christian Brown</p>
+                        <p>Entrepreneur, LA</p>
+                    </div>
+                </div>
+                <!-- card 8 -->
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/review-user2.png" alt="John" style="width:40%">
+                        <h1 class="pt-3">“I am using Saasflix app for more than 25 years.”</h1>
+                        <p class="title">Mike Anderson</p>
+                        <p>UI Developer, Australia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- From the blog page start -->
+
+    <section id="blog">
+        <div class="blog_bg">
+            <div class="container ">
+                <div class="blog_heading">
+                    <div class="blog_ani_block"></div>
+                    <h1>From the blog</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog_card_body" data-aos="zoom-in">
+                            <div class="blog_card_img">
+                                <img src="./img/b1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="blog_card_content">
+                                <a href="#">
+                                    <h5>MEDIA COVERAGE</h5>
+                                </a>
+                                <a href="#">
+                                    <h3>How to use saas to create a positive work</h3>
+                                </a>
+                                <p>There are many variations of passages of lorem ipsum dolor amet available...</p>
+                                <a href="#">
+                                    <h4>Continue Reading <span>.</span><span>.</span><span>.</span></h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog_card_body" data-aos="zoom-in">
+                            <div class="blog_card_img">
+                                <img src="./img/b2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="blog_card_content">
+                                <a href="#">
+                                    <h5>MEDIA COVERAGE</h5>
+                                </a>
+                                <a href="#">
+                                    <h3>5 tips to boost product based sale online</h3>
+                                </a>
+                                <p>There are many variations of passages of lorem ipsum dolor amet available...</p>
+                                <a href="#">
+                                    <h4>Continue Reading <span>.</span><span>.</span><span>.</span></h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog_card_body" data-aos="zoom-in">
+                            <div class="blog_card_img">
+                                <img src="./img/b3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="blog_card_content">
+                                <a href="#">
+                                    <h5>MEDIA COVERAGE</h5>
+                                </a>
+                                <a href="#">
+                                    <h3>How to become a fully AI based company</h3>
+                                </a>
+                                <p>There are many variations of passages of lorem ipsum dolor amet available...</p>
+                                <a href="#">
+                                    <h4>Continue Reading <span>.</span><span>.</span><span>.</span></h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in touch contact page start -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact_heading">
+                <h2>Get in touch</h2>
+                <p>Contact us</p>
+                <div class="con1_block"></div>
+                <div class="con2_block"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="conact_imgbar" data-aos="zoom-in">
+                        <img src="./img/contact-img.png" alt="" >
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="conct_form_page" data-aos="zoom-in">
+                        <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                            </select>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder=" Write something.."
+                                style="height:150px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="shape-3"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="bubble-1">
+            <img src="./img/bubble-1.png" alt="">
+        </div>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="company_describe" data-aos="zoom-in">
+                            <div class="footer_logo">
+                                <label for="" class="logo">
+                                    <a class="nohover" href="#"><img src="./img/logo-dark.png" alt=""></a></label>
+                                <ul>
+                            </div>
+                            <h3>Lorem ipsum dolor sit amet consect adipiscing elit, sed do eiusmod tempor incididunt
+                                labore at dolore.</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                        <div class="company-footer" data-aos="zoom-in">
+                            <h4>Company</h4>
+                            <a href="#">Freature</a>
+                            <a href="#">Plan</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                        <div class="support_footer" data-aos="zoom-in">
+                            <h4>Support</h4>
+                            <a href="#">Careers</a>
+                            <a href="#">Help</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="news_letter_form" data-aos="zoom-in">
+                            <form action="/action_page.php">
+                                <div class="news_letter_footer">
+                                    <h2>Subscribe to our Newsletter</h2>
+                                    <p>Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem
+                                        ipsum text about why you should subscribe to our newsletter blabla.</p>
+                                </div>
+                                <input type="text" placeholder="Name" name="name" required>
+                                <input type="text" placeholder="Email address" name="mail" required>
+                                <input type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right"><p>© 2024 Zahid. All rights reserved.</p></div>
+    </footer>
+
+
+    <!-- jquery.min.js -->
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <!--owl.carousel.min.js  -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+
+    </script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
